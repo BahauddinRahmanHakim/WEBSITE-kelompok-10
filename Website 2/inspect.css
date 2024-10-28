@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: Poppins;
+    background-color: white;
+    color: black;
+    margin: 0;
+    font-size: 16px;
+}
+header nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for horizontal layout */
+}
+
+header nav ul li {
+    margin-right: 40px; /* Space between links */
+}
+
+header nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last link */
+}
+
+header nav a {
+    color: black; /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+header nav a:hover {
+    color: #f1683a; /* Change color on hover */
+}
+a{
+    text-decoration: none;
+    color: #eee;
+}
+
+header{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+header a{
+    margin-right: 40px;
+}
+/* carousel */
+.carousel{
+    width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+    margin-top: -60px;
+}
+.carousel .list .item{
+    position: absolute;
+    inset: 0 0 0 0;
+}
+.carousel .list .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.carousel .list .item .content {
+    position: absolute;
+    top: 75%;
+    width: 1200px;
+    max-width: 100%;
+    left: 40%; /* Centering the content */
+    transform: translate(-50%, -50%); /* Center vertically */
+    padding: 20px; /* Increase padding for a larger background */
+    box-sizing: border-box;
+    color: #000000;
+    text-shadow: 0 5px 10px #0004;
+    background-color: rgba(169, 169, 169, 0.8); /* Dark grey with 80% opacity */
+    border-radius: 10px;
+    margin: 10px; /* Adjust as needed */
+}
+.carousel .list .item .content .author{
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.carousel .list .item .content .topic{
+    font: bold;
+    font-size: 5em;
+    line-height: 1.3em;
+}
+.carousel .list .item .content .topic{
+    color:crimson
+}
