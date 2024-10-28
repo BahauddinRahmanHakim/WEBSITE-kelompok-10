@@ -66,12 +66,26 @@ Web kami menggunakan CSS untuk memberikan tampilan dan responsif dan mudah diaks
 # Penggunaan Javascript
 Javascript pada web kami digunakan untuk animasi gambar pada web kami.Kode JavaScript ini mengelola logika navigasi dan transisi dalam carousel, termasuk navigasi manual dengan tombol dan pengalihan otomatis antar slide. Ini memberikan pengalaman interaktif dan dinamis bagi pengguna.
 
-1. Element selection
+1. Element Selection
+  -nextDom dan prevDom: Mengambil elemen tombol untuk navigasi berikutnya dan sebelumnya.
+  -carouselDom: Mengambil elemen carousel utama.
+  -listItemDom dan thumbnailDom: Mengambil elemen untuk daftar item dan thumbnail dalam carousel.
 2. Event Handlers
+  -nextDom.onclick: Menetapkan fungsi yang memanggil showSlider('next') saat tombol "next" diklik.
+  -prevDom.onclick: Menetapkan fungsi yang memanggil showSlider('prev') saat tombol "prev" diklik.
 3. Timing Variables
+  -timeRunning: Durasi tampilan setiap slide.
+  -timeAutoNext: Waktu otomatis untuk berpindah ke slide berikutnya.
+  -runTimeOut dan runAutoRun: Mengelola timeout untuk transisi dan auto slide.
 4. Auto Slide Functionality
+  -setTimeout(): Secara otomatis mengklik tombol "next" setelah waktu yang ditentukan.
 5. Show Slider Function
+  -showSlider(type): Fungsi yang mengatur transisi antar slide:
+  -Jika type adalah 'next': Memindahkan item pertama dari daftar ke bagian akhir dan menambahkan kelas 'next' untuk efek       transisi.
+  -Jika type adalah 'prev': Memindahkan item terakhir dari daftar ke bagian depan dan menambahkan kelas 'prev'.
 6. Clearing Timeouts
+  -clearTimeout(): Menghentikan timeout sebelumnya untuk menghindari tumpang tindih saat transisi slide.
+  -Menghapus kelas 'next' atau 'prev' setelah durasi tertentu untuk mereset efek transisi.
 
 # Tampilan Website
 berikut merupakan link untuk mengakses proyek ini: 
