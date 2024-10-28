@@ -81,8 +81,8 @@ berikut merupakan link untuk mengakses proyek ini:
 Proyek ini disusun oleh 'Dicky Dippos Sihite', 'Bahauddin Rahman Hakim', dan 'Roberto Christian'.
 Jika ada pertanyaan lebih lanjut silahkan menghubungi
 
-[Dicky Dippos Sihite](GitHub : https://github.com/Dicky-Sihite)
+[Dicky Dippos Sihite]     (GitHub : https://github.com/Dicky-Sihite)
 
-[Bahauddin Rahman Hakim](GitHub : https://github.com/BahauddinRahmanHakim)
+[Bahauddin Rahman Hakim]  (GitHub : https://github.com/BahauddinRahmanHakim)
 
-[Roberto Christian](GitHub : https://github.com/RobertoChristian)
+[Roberto Christian]       (GitHub : https://github.com/RobertoChristian)
