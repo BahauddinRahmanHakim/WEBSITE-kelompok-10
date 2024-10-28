@@ -82,5 +82,7 @@ Proyek ini disusun oleh 'Dicky Dippos Sihite', 'Bahauddin Rahman Hakim', dan 'Ro
 Jika ada pertanyaan lebih lanjut silahkan menghubungi
 
 [Dicky Dippos Sihite](GitHub : https://github.com/Dicky-Sihite)
+
 [Bahauddin Rahman Hakim](GitHub : https://github.com/BahauddinRahmanHakim)
+
 [Roberto Christian](GitHub : https://github.com/RobertoChristian)
