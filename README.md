@@ -1,6 +1,6 @@
 # UTS dan UAS Pemrograman Web
 
-Selamat datang di proyek `UTS Pemrograman Web'. Proyek ini merupakan tugas mata kuliah pemrograman web. Pada web kami anda akan menemukan fitur-fitur yang menarik dan responsive.
+Selamat datang di proyek 'UTS Pemrograman Web' dan 'UTS Pemrograman Web'. Proyek ini merupakan tugas mata kuliah pemrograman web. Pada web kami anda akan menemukan fitur-fitur yang menarik dan responsive.
 
 # Struktur HTML
 Pada proyek ini kami susun dengan rapi sehingga memudahkan aksesbilitas pengguna, berikut merupakan penjelasan lebih lanjut dari struktur html nya:
